@@ -9,7 +9,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
      * └───┴───┴───┘
      */
     [0] = LAYOUT_ortho_2x3(
-        KC_CALC, KC_NO,   KC_NO,
+        KC_CALC, KC_NO,   KC_MUTE,
         KC_MPRV, KC_MPLY, KC_MNXT
     )
 };
