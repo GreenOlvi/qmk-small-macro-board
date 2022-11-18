@@ -22,4 +22,7 @@
 #define ENCODERS_PAD_A { D0 }
 #define ENCODERS_PAD_B { D1 }
 
-#define ENCODER_RESOLUTION 4
+#define ENCODER_RESOLUTION 2
+
+#define RGB_DI_PIN B6
+#define RGBLED_NUM 1
