@@ -37,7 +37,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_TEAMS] = LAYOUT_ortho_2x3(
         TO(_BASE), KC_NO, C(S(KC_E)),
-        C(S(KC_M)), C(S(KC_O)), C(S(KC_K))
+        LALT(LWIN(KC_K)), C(S(KC_O)), C(S(KC_K))
     ),
 
     [_META] = LAYOUT_ortho_2x3(
